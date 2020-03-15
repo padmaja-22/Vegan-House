@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+.parallax {
+  background-image: url("https://www.vsveicolispeciali.com/wp-content/uploads/2018/07/food-truck-vintage-nuovo-kostina.jpg");
+  min-height: 320px; 
+  filter: brightness(0.5);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.para{
+ background-size: cover;
+ height: 500px;
+ background: linear-gradient(90deg, rgb(185, 230, 185) 50%, rgb(231, 221, 181) 50%);
+
+}
+.para img{
+  left: 37%;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 60%;
+}
+.para h1{
+  left: 3%;
+  position: absolute;
+  font-size: 40px;
+  top: 80%;
+  font-family: 'Roboto Mono';
+}
+.para p{
+  left: 62%;
+  top:80% ;
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Roboto Mono';
+}
+.row-1 .column {
+  flex: 23.33%;
+  padding: 40px;
+}
+.row-1 img{
+  height: 250px;
+  width: 250px;
+}
+.row-1 {
+  display: flex;
+  background: linear-gradient(90deg, rgb(185, 230, 185) 50%, rgb(231, 221, 181) 50%);
+}
+.row-2 .column {
+  flex: 23.33%;
+  padding: 60px;
+}
+.row-2 img{
+  height: 250px;
+  width: 250px;
+}
+.row-2 {
+  display: flex;
+  background: linear-gradient(90deg, rgb(185, 230, 185) 50%, rgb(231, 221, 181) 50%);
+}
+.food h1{
+  text-align: center;
+  background: linear-gradient(90deg, rgb(185, 230, 185) 50%, rgb(231, 221, 181) 50%);
+  font-family: 'Roboto Mono';
+}
+.food p{
+  background: linear-gradient(90deg, rgb(185, 230, 185) 50%, rgb(231, 221, 181) 50%);
+  font-size: 20px;
+  font-family: 'Roboto Mono';
+
+}
+
